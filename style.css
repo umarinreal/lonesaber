@@ -3,25 +3,25 @@ h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
 }
-body{
-    : ;
-}
+
 *{
     margin: 0;
     padding: 0;
 }
+
 nav{
-    background-color: rgb(0, 33, 63);
+    position: sticky;
+    background-color: #27374D;
     width: auto;
     display: flex;
     padding: 2%;
-    align-items: center;
+    align-items: end;
     justify-content: center;
     
 }
 a{
     align-items: right;
-    color: rgb(0, 146, 190);
+    color: #526D82;
     margin: 0% 1%;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -30,4 +30,44 @@ a{
 a:hover{
     color: white;
     transition: all ease-in 0.5s;
+    font-size: 21px;
+}
+
+body{
+    background-color: #DDE6ED;
+}
+#dualthings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#profile{
+    width: 20vw;
+    height: 20%
+}
+#profile{
+    margin-top: 4%;
+    width: 23vw;
+    height: 23%;    
+    transition: all ease-in-out 0.8s;
+    border: 10px solid #27374D;
+    border-radius: 50%;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+#mercury:hover{
+    background-color:#DDE6ED;
+    transition: all ease-in-out 0.8s;
+    border-left: solid #27374D 50px;
+    color: #27374D;
+}
+#mercury{
+    border-left: solid white 30px;
+    padding-left: 50%;
+    background-color:#DDE6ED;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding: 20px;
+    color: #526D82;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
